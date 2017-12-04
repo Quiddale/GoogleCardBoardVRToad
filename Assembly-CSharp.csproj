@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CD236CDC-843A-CE4C-C925-A12E8EF2A3ED}</ProjectGuid>
+    <ProjectGuid>{974989DC-20E7-C40A-32A8-30F1EDA4662E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -159,6 +159,8 @@
      <Compile Include="Assets\LaneSpawner.cs" />
      <Compile Include="Assets\LevelManager.cs" />
      <Compile Include="Assets\TreeSpawner.cs" />
+     <Compile Include="Assets\VehicleMovement.cs" />
+     <Compile Include="Assets\VehicleSpawner.cs" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
@@ -200,7 +202,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/quiddaleosullivan/Documents/Toad/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/quiddaleosullivan/Development/GoogleCardBoardVRToad/GoogleCardBoardVRToad/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

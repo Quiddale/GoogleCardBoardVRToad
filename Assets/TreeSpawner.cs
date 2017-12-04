@@ -11,7 +11,6 @@ public class TreeSpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		int treeNumber = Random.Range (minTrees, maxTrees);
-
 		for (int currentTree = 0; currentTree < treeNumber; currentTree++) {
 			CreateTree ();
 
